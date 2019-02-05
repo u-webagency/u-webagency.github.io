@@ -1,0 +1,1687 @@
+/* Definition des polices de caractère */
+
+@font-face {
+  
+   font-family: 'fontawesome-webfont';
+
+   src: url('../fonts/fontawesome-webfont.eot');
+
+   src: url('../fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+
+        url('../fonts/fontawesome-webfont.ttf') format('truetype'),
+
+        url('../fonts/fontawesome-webfont.woff') format('woff'),
+
+        url('../fonts/fontawesome-webfont.svg#fontawesome-webfont') format('svg');
+
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+
+@font-face 
+{
+    font-family: 'Roboto-Bold';
+
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face 
+{
+    font-family: 'Roboto-Light';
+
+    src: url('../fonts/Roboto-Light.ttf') format('truetype');
+}
+
+
+
+body {
+
+    font-family: 'Roboto-Light', 'fontawesome-webfont', sans-serif;
+
+    margin: 0px;
+
+}
+
+#bloc_page {
+
+    width: auto;
+
+}
+
+/* Logo et Menu */
+
+#logo_menu {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    position: fixed;
+
+    top: 0%;
+
+    left: 0%;
+
+    right: 0%;
+
+    z-index: 2;
+
+    background-color: rgba(255, 255, 255, 1);
+
+    border-bottom: 1px solid #FBFBFB;
+
+    padding: 0.5% 0 0 0;
+
+}
+
+#logo {
+
+   margin: 0 0 0 8%;
+
+}
+
+/* Menu de navigation */
+
+#menu {
+
+   margin: 0 8% 0 0;
+
+}
+
+nav ul {
+
+    display: flex;
+
+    list-style: none;
+
+}
+
+nav ul li a {
+
+	padding: 20px 8px 15px 8px;
+
+	text-decoration: none;
+
+	color: black;
+
+}
+
+nav ul li a:hover {
+
+    border-top: 2px solid rgb(0, 162, 232);
+
+}
+
+/* Image dans le header */
+
+#header_image {
+
+    position: relative;
+
+    width: 100%;
+
+    height: 358px;
+
+    margin: 8% 0 0 0;
+
+}
+
+#bg1 img {
+
+    display: block;
+
+    position: absolute;
+
+    left: 0px;
+
+    right: 0px;
+
+    width: 100%;
+
+    height: 358px;
+
+}
+
+/* Boutton gauche et droite */
+
+#header_image .slide_button_left {
+
+    position: absolute;
+
+    top: 45%;
+
+    left: 0%;
+
+}
+
+#header_image .slide_button_right {
+
+    position: absolute;
+
+    top: 45%;
+
+    right: 0%;
+
+}
+
+#header_image .slide_button_left i {
+
+	   font-size: 1em;
+
+       color: white;
+
+       background: rgba(0, 0, 0, 0.3);
+
+       padding: 20px 8px 20px 8px;
+       
+       border-radius: 0px 60px 60px 0px;
+
+}
+
+#header_image .slide_button_right i {
+
+        font-size: 1em;
+
+       color: white;
+
+       background: rgba(0, 0, 0, 0.3);
+
+       padding: 20px 8px 20px 8px;
+       
+       border-radius: 60px 0 0 60px;
+
+}
+
+
+/* texte dans le header */
+
+.text_header {
+
+    position: absolute;
+
+    top: 80px;
+
+    bottom: 80px;
+
+    left: 8%;
+
+    width: 450px;
+
+    color: white;
+
+}
+
+.text_header h1 {
+
+    font-family:  'Roboto-Bold', 'fontawesome-webfont', sans-serif;
+
+    margin: 0 0 10px 0;
+
+}
+
+.text_header p {
+
+    font-size: 0.8em;
+
+}
+
+.text_header strong {
+
+    color: rgba(36, 189, 255, 0.6);
+
+}
+
+
+/* Boutton plus d'info */
+
+#more_info {
+
+    line-height: 4em;
+
+}
+
+#more_info a {
+
+	background-color: #5cadd3;
+
+	color: white;
+
+	text-decoration: none;
+
+    padding: 10px;
+
+    box-shadow: 0px 2px 5px rgb(0, 128, 183);
+
+    border-radius: 2px;
+
+}
+
+/* Mise en forme partie section */
+
+section {
+
+   line-height: 25px;
+
+}
+
+section p {
+
+    margin-top: 0px;
+
+}
+
+section h2 {
+
+    font-family: 'Roboto-Bold', 'fontawesome-webfont', sans-serif;
+
+    font-weight: bold;
+
+    font-size: 2em;
+
+    color: rgb(30, 30, 30);
+
+}
+
+section h3 {
+
+    font-family: 'Roboto-Bold', 'fontawesome-webfont', sans-serif;
+
+    font-weight: bold;
+
+    font-size: 1em;
+
+    color: rgb(30, 30, 30);
+
+}
+
+#services {
+    
+    width: 60%;
+
+    margin: auto;
+
+    text-align: center;
+    
+	padding: 7% 0 0 0;
+
+}
+
+hr {
+
+	display: inline-block;
+
+    position: relative;
+
+    top: -15px;
+
+	width: 60px;
+
+    color: rgb(245, 245, 245);
+
+}
+
+
+/* image et têxte côte à côte (menu service) */
+
+#services_big1 {
+
+    display: flex;
+
+    margin: 50px 0 0 0;
+
+}
+
+.text_services {
+
+    margin: 60px 5px 0 5px;
+
+}
+
+.text {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+/* Les différentes icônes */
+
+.text .icone_service {
+
+    margin: 0 25px 0 5px;
+
+}
+
+.text .icone_service i {
+
+    position: relative;
+
+    padding: 10px;
+
+    border: 1px solid rgb(200, 200, 200);
+
+    border-radius: 100%;
+
+}
+
+.text .icone_service .bluePoint2 {
+
+    position: absolute;
+
+    top: 0px;
+
+    right: -7px;
+
+    font-size: 1.50em;
+
+    color: #5CABD1;
+
+}
+
+
+.bull {
+
+    line-height: 10px;
+
+}
+
+
+.fas {
+
+    font-size: 1.50em;
+
+    color: #5CABD1;
+
+}
+
+.bluePoint1 {
+
+    font-size: 3.75em;
+
+    color: #5CABD1;
+
+}
+
+
+/* Partie projet */
+
+#projet_big1 {
+
+    padding: 7% 0 0 0;
+
+}
+
+#background_projet {
+
+    background: #f5f5f5;
+
+    margin: 0px;
+
+    padding: 5px 0 5px 0;
+
+}
+
+#projets {
+    
+    width: 60%;
+
+    margin: auto;
+
+    text-align: center;
+
+}
+
+
+/* Onglet et images portfolio (partie projet) */
+
+#onglet {
+
+    margin: 50px 0 50px 0;
+
+}
+
+#onglet ul {
+
+   display: flex;
+
+   justify-content: center;
+
+   width: 50%;
+
+   margin: auto;
+
+   padding: 0px;
+
+   list-style: none;
+
+}
+
+#onglet ul li a {
+
+    background-color:  rgb(210, 210, 210);
+
+    color: rgb(15, 15, 15);
+
+    padding: 7px 15px 7px 15px;
+
+    border-radius: 2px;
+
+    text-decoration: none;
+
+    transition: border-bottom 250ms ease-in, background 250ms ease-in;
+
+}
+
+#onglet ul li a:hover {
+
+    background-color: #5CABD1;
+
+    color: white;
+
+    border-bottom: 2px solid rgb(0, 115, 164);
+
+}
+
+/* Onglet qui rèste avec fond bleu et couleur blanc */
+
+#onglet .all_work {
+
+	position: relative;
+
+}
+
+#onglet .all_work a {
+
+    background-color: #5CABD1;
+
+    color: white;
+
+    border-bottom: 2px solid rgb(0, 115, 164);
+
+}
+
+#onglet .all_work i {
+
+    position: absolute;
+
+    left: 40%;
+
+    bottom: -20px;
+
+    color: rgb(0, 115, 164);
+
+}
+
+
+/* Images et description Portfolio */
+
+#portfolio_image {
+
+    width: 95%;
+
+    margin: auto;
+
+}
+
+#portfolio_image ul {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-content: center;
+
+    flex-wrap: wrap;
+
+    padding: 0px;
+
+    list-style: none;
+
+}
+
+#portfolio_image ul a {
+
+	display: block;
+
+    position: relative;
+
+    width: 200px;
+
+    height: 144px;
+
+    margin: 10px;
+
+}
+
+.portfolio_description {
+
+    position: absolute;
+
+    left: 0px;
+
+    right: 0px;
+
+    bottom: 0px;
+
+    background-color: rgba(0, 0, 0, 0.4);
+
+    color: white;
+
+    padding: 10px 0 10px 0;
+
+    opacity: 0;
+
+    transition: all 1s ease-in;
+
+}
+
+.portfolio_description i {
+  
+    position: absolute;
+
+    top: -12%;
+
+    right: 5%;
+
+    color: white;
+
+    font-size: 1em;
+
+    border: 1px solid white;
+
+    border-radius: 100%;
+
+    padding: 5px;
+
+    background-color: #5cadd3;
+
+    opacity: 0;
+
+    transition: all 1s ease-in;
+    
+}
+
+#portfolio_image ul a:hover .portfolio_description, #portfolio_image ul a:hover .portfolio_description i {
+
+   opacity: 1;
+
+}
+
+.portfolio_description em {
+
+	font-weight: bold;
+
+    font-size: 1em;
+
+    font-style: normal;
+
+    padding-left: 10px;
+
+}
+
+.portfolio_description .description {
+
+    font-size: 0.8em;
+
+    padding-left: 10px;
+
+}
+
+#portfolio_image ul li img {
+
+	position: absolute;
+
+    width: 200px;
+
+    height: 144px;
+
+}
+
+
+#portfolio_image ul li:last-child {
+
+    display: none;
+
+}
+
+
+/* La partie contact */
+
+#contact {
+
+    position: relative;
+
+    margin: 7% 0 0 0;
+
+    background-color: #5CABD1;
+
+}
+
+#contact iframe {
+
+	width: 100%;
+
+    height: 520px;
+
+    margin: 0px;
+
+    border: 0;
+
+    opacity: 0.7;
+
+}
+
+
+.text_contact {
+
+    position: absolute;
+
+    top: 3%;
+
+    right: 8%;
+
+    z-index: 1;
+
+    background-color: rgba(255, 255, 255, 0.8);
+
+    padding: 0 20px 0 20px;
+
+    line-height: 25px;
+
+}
+
+.text_contact h2 {
+
+    font-family: 'Roboto-Bold', 'fontawesome-webfont', sans-serif;
+
+    font-size: 1.2em;
+
+    font-weight: bold;
+
+}
+
+
+.text_contact form p {
+
+    line-height: 3em;
+
+}
+
+
+.text_contact input[type = text], .text_contact input[type = email] {
+
+    font-family: 'Roboto-Light', 'fontawesome-webfont', sans-serif;
+
+    width: 300px;
+
+    padding: 5px;
+
+    border: 1px solid rgb(125, 125, 125);
+
+    border-radius: 2px;
+
+}
+
+.text_contact textarea {
+
+	font-family: 'Roboto-Light', 'fontawesome-webfont', sans-serif;
+
+    width: 300px;
+
+    height: 100px;
+
+    padding: 5px;
+
+    border: 1px solid rgb(125, 125, 125);
+
+    border-radius: 2px;
+
+}
+
+.text_contact  input[type = submit] {
+
+    background-color: #5CABD1;
+
+    border-bottom: 2px solid rgb(0, 115, 164);
+
+	color: white;
+
+    padding: 10px;
+
+    border-radius: 2px;
+
+}
+
+/* Très grande écran (ecran <= 1601px) */ 
+
+@media all and (min-width: 1601px) {
+
+      #header_image {
+
+        position: relative;
+
+        width: 1600px;
+
+        margin: auto;
+
+        margin-top: 7%;
+
+        height: 550px;
+        
+    }
+
+    #bg1 img {
+
+        height: 550px;
+
+    }
+
+    .text_header {
+
+        top: 190px;
+
+        bottom: 190px;
+
+        width: 500px;
+
+    }
+
+    /* Lien menu */
+
+    nav ul li a {
+
+        padding: 20px 15px 15px 15px;
+
+        text-decoration: none;
+
+        color: black;
+
+    }
+
+
+     /* Partie section */
+
+    #services_big1 {
+
+        width: 90%;
+
+        margin: auto; 
+
+    }
+
+
+   /* Images portfolios (partie projet) */
+
+
+    #portfolio_image ul a {
+
+        width: 300px;
+
+        height: 200px;
+
+        margin: 15px;
+
+    }
+
+   #portfolio_image ul li img {
+
+        width: 300px;
+
+        height: 200px;
+
+    }
+
+ }
+
+/* Grande résolution (ecran >= 1401px && ecran <= 1600px) */
+
+@media all and (min-width: 1401px) and (max-width: 1600px) { 
+
+    /* Image d'entête */
+
+    #header_image {
+
+        height: 550px;
+
+        margin: 7% 0 0 0;
+        
+    }
+
+    #bg1 img {
+
+        height: 550px;
+
+    }
+
+    .text_header {
+
+        position: absolute;
+
+        top: 190px;
+
+        left: 8%;
+
+        bottom: 190px;
+
+        width: 500px;
+
+    }
+
+
+    /* Partie section */
+
+    #services_big1 {
+
+        width: 90%;
+
+        margin: auto; 
+
+    }
+
+
+   /* Images portfolios (partie projet) */
+
+
+    #portfolio_image ul a {
+
+        width: 300px;
+
+        height: 200px;
+
+        margin: 15px;
+
+    }
+
+   #portfolio_image ul li img {
+
+        width: 300px;
+
+        height: 200px;
+
+    }
+
+
+}
+
+
+/* écran (ecran >= 1281px && ecran <= 1400px) */
+
+@media all and (min-width: 1281px) and (max-width: 1400px) {
+
+
+    /* Image d'entête */
+
+    #header_image {
+
+        height: 481px;
+
+        margin: 7% 0 0 0;
+        
+    }
+
+    #bg1 img {
+
+        height: 481px;
+
+    }
+
+    .text_header {
+
+        top: 160px;
+
+        bottom: 160px;
+
+        width: 500px;
+
+    }
+
+    /* Partie section */
+
+    #services_big1 {
+
+        width: 90%;
+
+        margin: auto; 
+
+    }
+
+
+   /* Images portfolios (partie projet) */
+
+
+    #portfolio_image ul a {
+
+        width: 250px;
+
+        height: 166px;
+
+        margin: 15px;
+
+    }
+
+   #portfolio_image ul li img {
+
+        width: 250px;
+
+        height: 166px;
+
+    }
+
+}
+
+
+
+/* moyenne résolution (ecran >= 1045px && ecran <= 1280px) */
+
+@media all and (min-width: 1045px) and (max-width: 1280px) {
+
+    /* Image d'entête */
+
+    #header_image {
+
+        height: 412px;
+
+        margin: 7% 0 0 0;
+        
+    }
+
+    #bg1 img {
+
+        height: 412px;
+
+    }
+
+
+    .text_header {
+
+        top: 120px;
+
+        bottom: 120px;
+
+    }
+
+    /* Section page */
+
+    #services_big1 {
+
+        width: 95%;
+
+        margin: auto;
+
+    }
+
+
+    /* Images portfolio */
+
+    #portfolio_image {
+
+        width: auto;
+
+    }
+
+
+    #portfolio_image ul a {
+
+        width: 250px;
+
+        height: 166px;
+
+        margin: 10px;
+
+    }
+
+    #portfolio_image ul li img {
+
+        width: 250px;
+
+        height: 166px;
+
+    }
+
+}
+
+/* Petite résolution Entre (750px && 950px) */
+
+@media all and (min-width: 750px) and (max-width: 950px) {
+
+    /* Le logo et le menu */
+
+    #logo_menu {
+
+        display: flex;
+
+        justify-content: space-between;
+
+        padding: 1% 0 0 0;
+
+        margin: 0px; 
+
+    }
+
+    #logo {
+
+        margin: 0 0 0 10px;
+
+    }
+
+    #menu {
+
+        margin: 0 10px 0 0;
+
+    }
+
+    /* Image slider dans le header */
+
+    #header_image {
+
+       height: 326px;
+
+       margin: 9% 0 2.5% 0; 
+
+    }
+
+    #bg1 img {
+
+        height: 326px;
+
+    }
+
+    .text_header {
+
+        top: 40px;
+
+        bottom: 40px;
+
+        left: 5%;
+
+        width: 350px;
+
+    }
+
+    /* Partie section */
+
+    section {
+
+        width: auto;
+
+    }
+
+    #services_big1 {
+
+        margin: 0 10px 0 10px;
+
+    }
+
+    #services_big1 .main-feature img {
+
+        width: 380px;
+
+        height: 237px;
+
+    }
+
+    section .text_services {
+
+        margin: 10px 5px 0 5px;
+
+        text-align: justify;
+
+    }
+
+
+    /* Onglet et images portfolio */
+
+    #onglet ul {
+
+        width: 90%;
+
+    }
+
+    #onglet ul li a {
+
+        border-radius: 2px;
+
+    }
+
+    /* Images portfolio */
+
+    #portfolio_image ul a {
+
+	    display: initial;
+
+        position: initial;
+
+    }
+
+    #portfolio_image .portfolio_description {
+
+    	display: none;
+
+    }
+
+    #portfolio_image ul li img {
+
+    	display: initial;
+
+    	position: initial;
+
+        width: 180px;
+
+        height: 120px;
+
+        padding: 2px;
+
+    }
+
+
+    /* Partie contact */
+
+    #contact {
+
+        margin: 15px 0 0 0;
+
+        background-color: #5CABD1;
+
+    }
+
+
+    .text_contact {
+
+       top: 2%;
+
+       right: 25%;
+
+       bottom: 2%;
+
+       z-index: 1;
+
+       padding: 0 20px 0 20px;
+
+    }
+
+}
+
+
+/* Petite résolution <= 750px */
+
+@media all and (max-width: 750px) {
+        
+    /* Logo et menu */
+
+    #logo_menu {
+
+       position: initial;
+
+       display: flex;
+
+       flex-direction: column;
+
+       justify-content: center;
+
+       align-items: center;
+
+    }
+
+    #logo {
+
+       margin: 0px;
+
+       padding: 0px;
+
+       height: 21px;
+
+    }
+
+
+    #menu ul {
+
+        margin-top: 60px;
+
+    }
+
+    #menu nav ul li a {
+
+        font-size: 1.4em;
+
+        padding: 10px;
+
+    }
+
+    #menu nav ul li a:hover {
+
+       color: #5CABD1;
+
+       border: none;
+
+    }
+
+    /* On enlève l'image d'entête */
+
+    #header_image {
+
+       display: none;
+
+    }
+
+    /* Partie section */
+
+    section {
+
+    	width: auto;
+
+    }
+
+    #services, #projets {
+
+	    width: 80%;
+
+	    margin: auto;
+
+	    padding: 10px 0 10px 0;
+
+        text-align: center;
+
+    }
+
+    /* Image et texte (partie service) */
+
+    #services_big1 {
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        align-items: center;
+
+        margin-top: 10px;
+
+    }
+
+
+    /* Onglet et images portfolio (partie projet) */
+
+    #projet_big1 {
+
+        padding: 0px;
+
+        margin: 10px 0 10px 0;
+
+    }
+
+    #onglet {
+
+        margin: 0 0 40px 0;
+
+    }
+
+    #onglet ul {
+
+        display: flex;
+
+        justify-content: center;
+
+        width: auto;
+
+        padding: 0px;
+
+        list-style: none;
+
+    }
+
+    #onglet ul li a {
+
+        padding: 7px;
+
+        border-radius: 2px;
+
+    }
+
+    #onglet ul li a:hover {
+
+        background-color: #5CABD1;
+
+        color: white;
+
+        border-bottom: 2px solid rgb(0, 115, 164);
+
+    }
+
+    /* Images Portfolio */
+
+   #portfolio_image {
+
+        width: auto;
+
+    }
+
+    #portfolio_image ul {
+
+        display: flex;
+
+        justify-content: center;
+
+        align-content: center;
+
+        flex-wrap: wrap;
+
+        padding: 0px;
+
+        list-style: none;
+
+    }
+
+    #portfolio_image ul a {
+
+       display: initial;
+
+       position: initial;
+
+    }
+
+
+    #portfolio_image .portfolio_description {
+
+        display: none;
+
+    }
+
+   #portfolio_image ul li img {
+
+   	    display: initial;
+
+   	    position: initial;
+
+        width: auto;
+
+        padding: 2px;
+
+    }
+
+    /* Partie contact */
+
+    #contact {
+
+    	position: initial;
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        align-items: center;
+
+        margin: 15px 0 0 0;
+
+        background-color: white;
+
+    }
+
+    #contact iframe {
+
+        width: 100%;
+
+        height: 250px;
+
+    }
+
+    .text_contact {
+
+        position: initial;
+
+    }
+
+}
+
+
+/* Très petite résolution. Les écrans des smartphones <= 480px */
+
+@media all and (max-device-width: 480px) {
+
+
+	#bloc_page {
+
+        width: auto; 
+
+	}
+
+    /* Logo et menu */
+
+    #logo_menu {
+
+       position: initial;
+
+       display: flex;
+
+       flex-direction: column;
+
+       justify-content: center;
+
+       align-items: center;
+
+       padding: 0px;
+
+    }
+
+    #logo {
+
+        height: 21px;
+
+        padding: 0px;
+
+        margin: 0px;
+
+    }
+
+    #menu ul {
+
+        margin-top: 50px;
+
+    }
+
+
+    #menu nav ul li a {
+
+        padding: 5px;
+
+        color: rgb(15, 15, 15);
+
+        font-size: 1.2em;
+
+    }
+
+    #menu nav ul li a:hover {
+
+       color: #5CABD1;
+
+       border: none;
+
+    }
+
+    /* On enlève l'image d'entête */
+
+    #header_image {
+
+       display: none;
+
+    }
+
+    section {
+
+    	width: auto;
+
+    }
+
+    #services, #projets {
+
+	    width: 80%;
+
+	    margin: auto;
+
+	    padding: 10px 0 10px 0;
+
+        text-align: center;
+
+    }
+
+    /* Image et texte (partie service) */
+
+    #services_big1 {
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        align-items: center;
+
+        margin: 15px 10px 15px 10px;
+
+    }
+
+    /* Les différentes icônes */
+
+    .text .icone_service {
+
+        margin: 0 20px 0 0;
+
+    }
+
+
+    /* Onglet et images portfolio (partie projet) */
+
+    #onglet {
+
+        margin: 0 0 30px 0;
+
+    }
+
+    #onglet ul {
+
+        display: flex;
+
+        justify-content: center;
+
+        width: auto;
+
+        padding: 0px;
+
+        list-style: none;
+
+    }
+
+    #onglet ul li a {
+
+        padding: 7px;
+
+        border-radius: 2px;
+
+        text-decoration: none;
+
+    }
+
+    #onglet ul li a:hover {
+
+        background-color: #5CABD1;
+
+        color: white;
+
+        border-bottom: 2px solid rgb(0, 115, 164);
+
+    }
+
+    /* Images Portfolio */
+
+   #portfolio_image {
+
+        width: auto;
+
+    }
+
+    #portfolio_image ul {
+
+        display: flex;
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        align-content: center;
+
+        padding: 0px;
+
+    }
+
+    #portfolio_image ul a {
+
+       position: initial;
+
+       display: initial;
+
+    }
+
+
+    #portfolio_image .portfolio_description {
+
+        display: none;
+
+    }
+
+    #portfolio_image ul li img {
+
+    	position: initial;
+
+    	display: initial;
+
+        width: 150px;
+
+        height: 100px;
+
+    }
+
+
+    /* Partie contact */
+
+    #contact {
+
+    	position: initial;
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        align-items: center;
+
+        margin: 40px 0 0 0;
+
+        background-color: white;
+
+    }
+
+    #contact iframe {
+
+        width: 100%;
+
+    }
+
+    .text_contact {
+
+        position: initial;
+
+    }
+
+}
